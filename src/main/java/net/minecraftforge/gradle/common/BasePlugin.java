@@ -156,7 +156,7 @@ public abstract class BasePlugin<K extends BaseExtension> implements Plugin<Proj
             if (version.indexOf('-') >= 0) {
                 // remove git sha
                 version = version.substring(0, version.lastIndexOf('-'));
-                project.getDependencies().add(SeparatedLauncher.configurationName, "com.anatawa12.forge:separated:1.2-1.0.7");
+                project.getDependencies().add(SeparatedLauncher.configurationName, "io.github.cyankoton:separated:" + version);
             }
         }
         
