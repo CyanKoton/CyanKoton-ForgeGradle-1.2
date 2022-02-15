@@ -1,0 +1,25 @@
+# gradle
+.gradle
+build
+gradle-app.setting
+
+# GMCP plugin
+/minecraft
+
+# eclipse
+.settings
+.metadata
+.classpath
+.project
+bin
+
+# intellij
+out
+*.idea
+*.iml
+
+#mkdocs
+site
+
+# testing
+/repo/
