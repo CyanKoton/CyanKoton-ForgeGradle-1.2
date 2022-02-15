@@ -54,7 +54,7 @@ dependencies {
     implementation(gradleApi())
 
     // moved to the beginning to be the overrider
-    implementation("org.ow2.asm:asm:9.1")
+    implementation("org.ow2.asm:asm:9.2")
     implementation("org.ow2.asm:asm-tree:9.1")
     implementation("com.google.guava:guava:18.0")
 
