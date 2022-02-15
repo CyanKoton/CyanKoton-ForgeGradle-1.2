@@ -8,6 +8,7 @@ plugins {
 
 group = "io.github.cyankoton"
 
+
 version = "1.2-${property("version")!!}"
 
 base {
